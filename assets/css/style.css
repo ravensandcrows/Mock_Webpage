@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
+
 /*Sets the preferred items for the header including alt text*/
 header {
     padding: 20px;
@@ -49,6 +50,7 @@ a {
 p {
     font-size: 16px;
 }
+
 /*Defines how the hero of the page should look*/
 .hero {
     height: 800px;
@@ -87,74 +89,25 @@ p {
     background-color: #2589bd;
 }
 /*defines elements of the aside*/
-.benefit-lead {
+.margin-aside{
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*defines elements of the aside*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/*defines elements of the aside*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/*sets the h3 for the assoicated aside*/
-.benefit-lead h3 {
+
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*sets the h3 for the assoicated aside*/
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/*sets the h3 for the assoicated aside*/
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+
 /*impacts the img for the aside*/
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/*impacts the img for the aside*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/*impacts the img for the aside*/
-.benefit-cost img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /*impacts the seo class's card for its background/font/margins/etc.*/
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*impacts the online reputation class's card for its background/font/margins/etc.*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*impacts the social media class's card for its background/font/margins/etc.*/
-.social-media-marketing {
+.articles{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -163,30 +116,13 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/* img max heights */
+.content img {
     max-height: 200px;
 }
-/*impacts the online reputation class for the img sets a max height*/
-.online-reputation-management img {
-    max-height: 200px;
-}
-/*impacts the social media marketing class for the image*/
-.social-media-marketing img {
-    max-height: 200px;
-}
+
 /*impacts the seo class for the article by setting margin and font size*/
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/*impacts the online reputation class for the article*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*impacts the social media marketing class for the article*/
-.social-media-marketing h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -199,6 +135,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+h4 {
     font-size: 20px;
 }
