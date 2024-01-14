@@ -1,8 +1,8 @@
-# Challenge 1
+# Sample_Webpage
 
 ## Description
 
-Improve semantics on the HTML file, and update CSS file and add comments
+A sample webpage to practice web design, semantics, and other best practices. This webpage contains a functional navigation bar, a hero, and aside with more information next to the articles.
 
 ## Installation
 
