@@ -12,8 +12,8 @@ body {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: #7AC0E6;
+    color: black;
 }
 
 header h1 {
@@ -22,10 +22,11 @@ header h1 {
 }
 
 header h1 .seo {
-    color: #d9dcd6;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-nav{
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -43,8 +44,12 @@ nav ul li {
 }
 
 a {
-    color: #ffffff;
+    color: black;
     text-decoration: none;
+}
+
+a:hover {
+    color: white;
 }
 
 p {
@@ -66,17 +71,20 @@ p {
     float: left;
     margin-right: 25px;
 }
+
 /*Standarizes margin*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
 /*Sets up the inline needed*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
 /*sets up the general rules of the aside*/
 .benefits {
     margin-right: 20px;
@@ -86,12 +94,13 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #339ED6;
+    background-color: #7AC0E6;
 }
+
 /*defines elements of the aside*/
-.margin-aside{
+.margin-aside {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: black;
 }
 
 h3 {
@@ -107,13 +116,13 @@ h3 {
 }
 
 /*impacts the seo class's card for its background/font/margins/etc.*/
-.articles{
+.articles {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #339ED6;
-    color: #ffffff;
+    background-color: #7AC0E6;
+    color: black;
 }
 
 /* img max heights */
@@ -121,8 +130,8 @@ h3 {
     max-height: 200px;
 }
 
-p{
-    color:black;
+p {
+    color: black;
 }
 
 /*impacts the seo class for the article by setting margin and font size*/
@@ -141,4 +150,27 @@ footer {
 
 h4 {
     font-size: 20px;
+}
+
+@media (max-width: 500px) {
+    header {
+        display: flex;
+    }
+
+    header h1 {
+        text-align: center;
+        font-size: 24px;
+        margin-top: 40%;
+    }
+
+    header nav {
+        margin-left: auto;
+        margin-top: auto;
+    }
+    nav ul li {
+        display: inline-block;
+        margin-left: 15px;
+        font-size: 15px;
+        text-decoration: underline;
+    }
 }
